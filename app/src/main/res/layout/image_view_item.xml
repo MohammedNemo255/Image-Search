@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
 
@@ -28,7 +29,15 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:background="@drawable/gradiant_view"
-                android:padding="@dimen/default_padding" />
+                android:drawablePadding="@dimen/medium_padding"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:padding="@dimen/default_padding"
+                android:text='@{model.user.name,default="Mohammed Negm"}'
+                android:textColor="@color/white"
+                app:drawableStartCompat="@drawable/ic_baseline_account_circle"
+                app:drawableTint="@color/white" />
         </RelativeLayout>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
