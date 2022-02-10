@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.nemodroid.searchimage">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:hardwareAccelerated="true"
@@ -13,7 +16,7 @@
         android:theme="@style/Theme.KotlinExample2"
         android:usesCleartextTraffic="true">
         <activity
-            android:name="com.nemodroid.searchimage.MainActivity"
+            android:name="com.nemodroid.searchimage.ui.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

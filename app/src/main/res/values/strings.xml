@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Image Search</string>
+
+    <!--    Actions-->
+    <string name="actionRetry">Retry</string>
+
+
+    <!--  Network Error Message -->
+    <string name="timeOutConnection">Timeout connection</string>
+    <string name="authFailureError">Authentication failure error</string>
+    <string name="serverError">Error while connecting to server</string>
+    <string name="networkError">Network error</string>
+    <string name="parseError">Parsing error</string>
+    <string name="noInternetConnection">No internet connection</string>
+    <string name="textClientErrorMessage">Client Error</string>
+    <string name="textErrorMessage">Something went wrong, try again</string>
 </resources>
