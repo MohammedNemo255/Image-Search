@@ -5,6 +5,6 @@
     app:startDestination="@id/mainFragment">
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.nemodroid.searchimage.ui.fragment.MainFragment"
+        android:name="com.nemodroid.searchimage.ui.fragment.main.MainFragment"
         android:label="MainFragment" />
 </navigation>

@@ -4,7 +4,7 @@ import com.nemodroid.searchimage.api.DefaultResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-interface RetrofitAPI {
+interface ApiClient {
 
     @GET("search/photos")
     suspend fun searchPhoto(

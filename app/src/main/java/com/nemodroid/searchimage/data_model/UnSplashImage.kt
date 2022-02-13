@@ -4,7 +4,7 @@ import androidx.appcompat.widget.AppCompatImageView
 import androidx.databinding.BindingAdapter
 import com.bumptech.glide.Glide
 
-data class SplashImage(
+data class UnSplashImage(
     var id: String,
     var createdAt: String? = null,
     var width: Int? = null,

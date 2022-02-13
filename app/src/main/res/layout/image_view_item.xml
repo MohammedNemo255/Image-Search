@@ -6,7 +6,7 @@
 
         <variable
             name="model"
-            type="com.nemodroid.searchimage.data_model.SplashImage" />
+            type="com.nemodroid.searchimage.data_model.UnSplashImage" />
     </data>
 
     <androidx.appcompat.widget.LinearLayoutCompat

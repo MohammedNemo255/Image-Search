@@ -1,5 +1,16 @@
+<!DOCTYPE resources [<!ENTITY app_name "Image Search"><!ENTITY app_name_general "Image Search">]>
+
 <resources>
-    <string name="app_name">Image Search</string>
+    <string name="app_name">&app_name;</string>
+
+    <!-- Application Languages -->
+    <string name="appLanguageAR" translatable="false">ar</string>
+    <string name="appLanguageEN" translatable="false">en</string>
+
+    <!-- Application Constant -->
+    <string name="appConstantPrefsName" translatable="false">&app_name;</string>
+    <string name="appConstantDefaultLanguage" translatable="false">DefaultLanguage</string>
+    <string name="appConstantNotificationID" translatable="false">DecideLeNotificationID</string>
 
     <!--    Actions-->
     <string name="actionRetry">Retry</string>
